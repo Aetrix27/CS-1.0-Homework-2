@@ -15,7 +15,8 @@ def get_mood_bot_response(user_response):
     bot_response_excited = ["It's great to have things to look forward to!", "Awesome!"]
     bot_response_done = "Goodbye, have a great day!"
     bot_response_dk = ["Things will get better with time.", "I see.."]
-    bot_response_joke = ["Did you hear about the mathematician that's scared of negative numbers? He'll stop at nothing to avoid them.",
+    bot_response_joke = ["Did you hear about the mathematician that's scared of negative numbers?"
+                        " He'll stop at nothing to avoid them.",
                         "Why do we tell actors to break a leg? Because every play has a cast."]
 
     if user_response == "happy":
@@ -40,7 +41,7 @@ def get_mood_bot_response(user_response):
     else:
         return "You can do anything you put your mind to."
 
-print("Welcome to Mood Bot!")
+print("Welcome to Chat Bot!")
 print("Please enter how you are feeling, press done when you are finished talking.")
 
 #Gets user responses until done is entered.
